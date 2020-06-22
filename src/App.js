@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import {Layout, Header, Navigation, Drawer, Content} from 'react-mdl'
+import {Layout, Header, Navigation, Content} from 'react-mdl'
 import LandingPage from './components/landingpage';
 import AboutMe from './components/aboutme';
 import Footer from './components/footer';
@@ -49,28 +49,7 @@ function App() {
                       }}>Contact</li>
                   </Navigation>
               </Header>
-              <Drawer className="drawer" title={"Phil Fiess - Programming and IT"}>
-                  <Navigation>
-                  <li onClick={function(e){
-                          e.preventDefault();
-                          document.querySelector('#aboutme').scrollIntoView({
-                            behavior: 'smooth',
-                          });
-                        }}>About Me</li>
-                        <li onClick={function(e){
-                          e.preventDefault();
-                          document.querySelector('#resume').scrollIntoView({
-                            behavior: 'smooth'
-                          });
-                        }}>Resume</li>
-                      <li onClick={function(e){
-                        e.preventDefault();
-                        document.querySelector('#contact').scrollIntoView({
-                          behavior: 'smooth'
-                        });
-                      }}>Contact</li>
-                  </Navigation>
-              </Drawer>
+
               <Content>
                   <div className="page-content">
                     <LandingPage />

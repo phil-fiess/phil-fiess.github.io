@@ -7,30 +7,24 @@ html {
     background: #333333;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #dd1818, #333333);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #dd1818, #333333); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    position: sticky;
-    position: -webkit-sticky;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navbar {
+    position: fixed;
     top: 0;
 }
 
-.drawer {
-    position: sticky;
-    position: -webkit-sticky;
-    top: 0;
-}
-
-.mdl-navigation a {
+.mdl-navigation li {
     transition: background ease-in .25s;
 }
 
-.mdl-navigation a:hover {
+.mdl-navigation li:hover {
     background-color: #3333;
     opacity: 70%;
 }
-
-.mdl-navigation__link a {
-    transition: background ease-in .25s;
-}
-
 
 /*App overall CSS */
 .page-content {
@@ -206,6 +200,12 @@ html {
     background-size: cover;
 }
 
+.footer {
+    background: black;
+    text-align: center;
+    color: white;
+    height: 100%;
+}
 
 /*Mobile resizing of images */
 @media only screen and (max-width: 600px){
@@ -214,8 +214,3 @@ html {
     }
 }
 
-.footer {
-    background: black;
-    text-align: center;
-    color: white;
-}
