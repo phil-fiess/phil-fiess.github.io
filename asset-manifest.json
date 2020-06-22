@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/portfoliosite/static/css/main.e1aca64b.chunk.css",
-    "main.js": "/portfoliosite/static/js/main.f8dfb847.chunk.js",
-    "main.js.map": "/portfoliosite/static/js/main.f8dfb847.chunk.js.map",
+    "main.js": "/portfoliosite/static/js/main.458aa0ba.chunk.js",
+    "main.js.map": "/portfoliosite/static/js/main.458aa0ba.chunk.js.map",
     "runtime-main.js": "/portfoliosite/static/js/runtime-main.fa514bd4.js",
     "runtime-main.js.map": "/portfoliosite/static/js/runtime-main.fa514bd4.js.map",
     "static/css/2.e4346227.chunk.css": "/portfoliosite/static/css/2.e4346227.chunk.css",
-    "static/js/2.19beb023.chunk.js": "/portfoliosite/static/js/2.19beb023.chunk.js",
-    "static/js/2.19beb023.chunk.js.map": "/portfoliosite/static/js/2.19beb023.chunk.js.map",
+    "static/js/2.dc65a5f4.chunk.js": "/portfoliosite/static/js/2.dc65a5f4.chunk.js",
+    "static/js/2.dc65a5f4.chunk.js.map": "/portfoliosite/static/js/2.dc65a5f4.chunk.js.map",
     "index.html": "/portfoliosite/index.html",
-    "precache-manifest.033a1a7e366100d38f918895c42acee5.js": "/portfoliosite/precache-manifest.033a1a7e366100d38f918895c42acee5.js",
+    "precache-manifest.ffcb4e636cc9537c32ce306ee6bb6d09.js": "/portfoliosite/precache-manifest.ffcb4e636cc9537c32ce306ee6bb6d09.js",
     "service-worker.js": "/portfoliosite/service-worker.js",
     "static/css/2.e4346227.chunk.css.map": "/portfoliosite/static/css/2.e4346227.chunk.css.map",
     "static/css/main.e1aca64b.chunk.css.map": "/portfoliosite/static/css/main.e1aca64b.chunk.css.map",
-    "static/js/2.19beb023.chunk.js.LICENSE.txt": "/portfoliosite/static/js/2.19beb023.chunk.js.LICENSE.txt",
+    "static/js/2.dc65a5f4.chunk.js.LICENSE.txt": "/portfoliosite/static/js/2.dc65a5f4.chunk.js.LICENSE.txt",
     "static/media/App.css": "/portfoliosite/static/media/irene-davila-9Y5Wk7favpE-unsplash.59cffd6e.jpg",
     "static/media/phil-avatar.png": "/portfoliosite/static/media/phil-avatar.66592dbf.png",
     "static/media/phil-flatiron.jpg": "/portfoliosite/static/media/phil-flatiron.313187cf.jpg"
@@ -21,8 +21,8 @@
   "entrypoints": [
     "static/js/runtime-main.fa514bd4.js",
     "static/css/2.e4346227.chunk.css",
-    "static/js/2.19beb023.chunk.js",
+    "static/js/2.dc65a5f4.chunk.js",
     "static/css/main.e1aca64b.chunk.css",
-    "static/js/main.f8dfb847.chunk.js"
+    "static/js/main.458aa0ba.chunk.js"
   ]
 }
