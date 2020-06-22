@@ -6,7 +6,6 @@ import AboutMe from './components/aboutme';
 import Footer from './components/footer';
 import Contact from './components/contact';
 import Resume from './components/resume';
-import $ from 'jquery';
 
 // Couldn't get react-scroll to work with MDL elements, so using native JS for scroll effect 
 function scrollToItem(selector) {
