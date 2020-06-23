@@ -211,5 +211,9 @@ footer {
     img {
         max-width: 300px;
     }
+
+    .social-links {
+        width: 50%;
+    }
 }
 
