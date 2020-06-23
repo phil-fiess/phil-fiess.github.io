@@ -160,6 +160,11 @@ html {
 
 .contact-list li {
     padding: 1em;
+    font-size: 25px;
+}
+
+#mobile-contact {
+    display: none;
 }
 
 /* Resume Page CSS */ 
@@ -235,5 +240,29 @@ footer {
         padding: 0px 10px 0px 10px;
     }
     
+    .contact-list ul {
+        list-style-type: none;
+        overflow: hidden;
+        display: inline;
+    }
+
+    .contact-list i {
+        height: 15px;
+        width: 15px;
+        margin-left: 45%;
+        margin-right: 45%;
+    }
+
+    .contact-list li {
+        text-align: center;
+    }
+
+    #desktop-contact {
+        display: none;
+    }
+
+    #mobile-contact {
+        display: initial;
+    }
 }
 

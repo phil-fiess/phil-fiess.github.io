@@ -12,16 +12,36 @@ class Contact extends Component {
                     <Cell col={12}>
                         <h2 style={{fontFamily: 'Oxygen'}}>Contact Phil</h2>
                         <div className="contact-list">
+                            
+                            <div id="desktop-contact">
+                                <ul>
+                                    <li style={{fontFamily: 'Oxygen'}}>
+                                        <i className="fa fa-phone-square" aria-hidden="true" />
+                                        (778) - 870 - 8480
+                                    </li>
+                                    <li style={{fontFamily: 'Oxygen'}}>
+                                        <i className="fa fa-envelope" aria-hidden="true" />
+                                        pfiess@protonmail.com
+                                    </li>
+                                </ul>                              
+                            </div>  
+
+                            <div id="mobile-contact">
                             <ul>
-                                <li style={{fontSize: '25px', fontFamily: 'Oxygen'}}>
+                                <li style={{fontFamily: 'Oxygen'}}>
                                     <i className="fa fa-phone-square" aria-hidden="true" />
-                                    (778) - 870 - 8480
                                 </li>
-                                <li style={{fontSize: '25px', fontFamily: 'Oxygen'}}>
+                                <li style={{fontFamily: 'Oxygen'}}>778-870-8480</li>
+                                <li style={{fontFamily: 'Oxygen'}}>
                                     <i className="fa fa-envelope" aria-hidden="true" />
-                                    pfiess@protonmail.com
+                                </li>
+                                <li style={{fontFamily: 'Oxygen'}}>
+                                pfiess@protonmail.com
                                 </li>
                             </ul>
+                            </div>
+
+
                             <hr style={{width: '100%', borderBottom: '2px solid grey', opacity: '50%'}} />                          
                             <footer>
                                 <span>&#169;Copyright Phil Fiess 2020</span>
