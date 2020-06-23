@@ -15,7 +15,7 @@ class Landing extends Component {
                           className="avatar-image"
                         />
                         <div className="banner-text">
-                            <h1><ReactTypingEffect className="typingeffect" text={['Phil Fiess','Programmer and IT']} speed={100} eraseDelay={700}/></h1>
+                            <h1><ReactTypingEffect className="typingeffect" text={['Phil Fiess', 'Jr. Software Developer']} speed={100} eraseDelay={700}/></h1>
                         <hr/>
 
                         <p>HTML/CSS | JavaScript | React | JQuery | Python | Django | C++ | Java | IT | PostgreSQL | QML/QtCreator</p>
