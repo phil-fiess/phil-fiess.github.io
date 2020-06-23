@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfoliosite/static/css/main.99a57f8c.chunk.css",
+    "main.css": "/portfoliosite/static/css/main.565b69ac.chunk.css",
     "main.js": "/portfoliosite/static/js/main.7888e2fa.chunk.js",
     "main.js.map": "/portfoliosite/static/js/main.7888e2fa.chunk.js.map",
     "runtime-main.js": "/portfoliosite/static/js/runtime-main.fa514bd4.js",
@@ -9,10 +9,10 @@
     "static/js/2.a1b94516.chunk.js": "/portfoliosite/static/js/2.a1b94516.chunk.js",
     "static/js/2.a1b94516.chunk.js.map": "/portfoliosite/static/js/2.a1b94516.chunk.js.map",
     "index.html": "/portfoliosite/index.html",
-    "precache-manifest.8c2668bce095d4d1d87ee759e713b261.js": "/portfoliosite/precache-manifest.8c2668bce095d4d1d87ee759e713b261.js",
+    "precache-manifest.a3dd16fb5aad6153f704d262083e249d.js": "/portfoliosite/precache-manifest.a3dd16fb5aad6153f704d262083e249d.js",
     "service-worker.js": "/portfoliosite/service-worker.js",
     "static/css/2.e4346227.chunk.css.map": "/portfoliosite/static/css/2.e4346227.chunk.css.map",
-    "static/css/main.99a57f8c.chunk.css.map": "/portfoliosite/static/css/main.99a57f8c.chunk.css.map",
+    "static/css/main.565b69ac.chunk.css.map": "/portfoliosite/static/css/main.565b69ac.chunk.css.map",
     "static/js/2.a1b94516.chunk.js.LICENSE.txt": "/portfoliosite/static/js/2.a1b94516.chunk.js.LICENSE.txt",
     "static/media/App.css": "/portfoliosite/static/media/irene-davila-9Y5Wk7favpE-unsplash.59cffd6e.jpg",
     "static/media/phil-avatar.png": "/portfoliosite/static/media/phil-avatar.66592dbf.png",
@@ -22,7 +22,7 @@
     "static/js/runtime-main.fa514bd4.js",
     "static/css/2.e4346227.chunk.css",
     "static/js/2.a1b94516.chunk.js",
-    "static/css/main.99a57f8c.chunk.css",
+    "static/css/main.565b69ac.chunk.css",
     "static/js/main.7888e2fa.chunk.js"
   ]
 }
