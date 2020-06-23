@@ -222,5 +222,14 @@ footer {
     .social-links {
         width: 50%;
     }
+
+    .banner-text h1 {
+        font-size: 55px;
+    }
+
+    .banner-text h2 {
+        font-size: 40px;
+    }
+    
 }
 
