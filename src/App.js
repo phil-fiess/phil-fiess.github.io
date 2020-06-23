@@ -3,7 +3,6 @@ import './App.css';
 import {Layout, Header, Navigation, Content} from 'react-mdl'
 import LandingPage from './components/landingpage';
 import AboutMe from './components/aboutme';
-import Footer from './components/footer';
 import Contact from './components/contact';
 import Resume from './components/resume';
 
@@ -60,7 +59,6 @@ function App() {
                     <Resume />
                     <div className="parallax-2" />
                     <Contact />
-                    <Footer />
                   </div>
               </Content>
           </Layout>

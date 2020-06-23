@@ -24,7 +24,7 @@ html {
 
 .mdl-navigation li:hover {
     background-color: #3333;
-    opacity: 70%;
+    color: white;
 }
 
 /*App overall CSS */
@@ -136,10 +136,8 @@ html {
     justify-content: center;
     position: static;
     width: 100%;
-    height: 350px;
     background: black;
     color: white;
-    margin: 20px;
 }
 
 .contact-list i {
@@ -201,11 +199,11 @@ html {
     background-size: cover;
 }
 
-.footer {
+footer {
     background: black;
     text-align: center;
     color: white;
-    height: 100%;
+    padding: 10px;
 }
 
 /*Mobile resizing of images */

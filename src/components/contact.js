@@ -8,8 +8,8 @@ class Contact extends Component {
         return (
             <div className="contact-body" id="contact">
                 <Grid className="contact-grid">
-                    <Cell col={1}></Cell>
-                    <Cell col={10}>
+                    {/* <Cell col={1}></Cell> */}
+                    <Cell col={12}>
                         <h2 style={{fontFamily: 'Oxygen'}}>Contact Phil</h2>
                         <div className="contact-list">
                             <ul>
@@ -21,10 +21,15 @@ class Contact extends Component {
                                     <i className="fa fa-envelope" aria-hidden="true" />
                                     pfiess@protonmail.com
                                 </li>
-                            </ul>                          
+                            </ul>
+                            <hr style={{width: '100%', borderBottom: '2px solid grey', opacity: '50%'}} />                          
+                            <footer>
+                                <span>&#169;Copyright Phil Fiess 2020</span>
+                                <p>Background image credit to unsplash.com (top: Irene Dávila, bottom: Dave Hoefler)</p>
+                            </footer>
                         </div>
                     </Cell>
-                    <Cell col={1}></Cell>
+                    {/* <Cell col={1}></Cell> */}
                 </Grid>
             </div>
         )
