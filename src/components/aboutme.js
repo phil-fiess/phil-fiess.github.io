@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
-import flatIron from '../img/phil-flatiron.jpg'
-
 
 class AboutMe extends Component {
     render() {
@@ -10,13 +8,6 @@ class AboutMe extends Component {
                 <Grid className="about-grid">
                     {/* <Cell col={1}></Cell> */}
                     <Cell className="about-me" col={12} style={{textAlign: 'center'}}>
-                    <div style={{ textAlign: "center", maxWidth: '100%'}}>
-                        <img 
-                            src={flatIron}
-                            alt="avatar"
-                            style={{height: '300px', maxWidth: 'auto',  borderRadius: '75%' }}
-                        />
-                    </div>
                     <h2 style={{padding: '1em'}}>About Phil</h2>
                     <hr style={{borderTop: '3px solid #833FB2', width: '100%'}} />
                     <p>Phil is a native of Calgary, AB, Canada. He has been studying Computer Science for the past 3 years, having worked

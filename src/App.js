@@ -25,13 +25,23 @@ function scrollToItem(selector) {
   }
 }
 
+/*Mobile logic. Didn't feel the need to go out the way to make another component getting window size for such a simple app */
+function scrollToMobile(selector) {
+  const item = document.querySelector(selector);
+  item.scrollIntoView({
+    behavior: 'smooth',
+    block: 'start'
+  });
+}
+
+
 function App() {
 
   return (
     <div className="App">
       <div className="demo-big-content">
           <Layout>
-          <Header className="header-color" title={"Phil Fiess - Portfolio"} scroll>
+          <Header className="header-color" title={"Phil Fiess - Software Development"} scroll>
                   {/* I couldn't get react-scroll to work, so I'm just using native JS to achieve the scroll effect */}
                   <Navigation>
                         <li onClick={function(e){
@@ -47,7 +57,29 @@ function App() {
                         scrollToItem("#contact");
                       }}>Contact</li>
                   </Navigation>
-              </Header>
+            </Header>
+
+            {/* Mobile Navigation */}
+            <nav id="mobile-nav">
+              <button onClick={function(e){
+                e.preventDefault();
+                scrollToMobile("#aboutme");
+              }}>
+              About Me  
+              </button>
+              <button onClick={function(e){
+                e.preventDefault();
+                scrollToMobile("#resume-offset");
+              }}>
+              Resume  
+              </button>
+              <button onClick={function(e){
+                e.preventDefault();
+                scrollToMobile("#contact");
+              }}>
+              Contact  
+              </button>
+            </nav>
 
               <Content>
                   <div className="page-content">
