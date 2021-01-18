@@ -54,6 +54,10 @@ class Resume extends Component {
                         skill="React"
                         progress={40}
                     />
+                    <Languages
+                        skill="Node.js"
+                        progress={50}
+                    />
                     <Languages 
                         skill="Django"
                         progress={40}
@@ -72,6 +76,10 @@ class Resume extends Component {
                     />
                     <Languages 
                         skill="PostgreSQL"
+                        progress={40}
+                    />
+                    <Languages 
+                        skill="MongoDB"
                         progress={25}
                     />
 
@@ -168,30 +176,29 @@ class Resume extends Component {
 
                     <Skills 
                         category="Web Development"
-                        skill1="Designed and built interactive and responsive web content with user
-                                experience and accessibility in mind, maximizing navigability potential."
+                        skill1="Designed and built interactive and responsive web content using React and Bootstrap libraries for projects such as a local business finder web app, a comment board, and
+                                a portfolio website using UX/UI principles to create appealing, navigable content."
                         skill2="Built real-time updating and organized databases using MySQL and PHP
                                 back-end scripting build interactive web applications, such as comment
                                 boards."
-                        skill3="Used jQuery and React libraries and frameworks to construct appealing and interactive web
-                                content."
-                        skill4="Built and tested full stack web app using Django to deliver highly responsive, dynamic web content interacting with PostgreSQL backend."
+                        skill3="Programmed back end for local business finder web application using Node.js and Express.js integrating third-party APIs for my project during NWHacks 2021."
+                        skill4="Built and tested full stack to-do web app using Django to deliver highly responsive, dynamic web content interacting with PostgreSQL backend."
                     />
 
                     <Skills
                         category="UI Design and Programming"
-                        skill1="Conducted UI testing as well as surveyed user test groups to identify flaws in UI structure."
+                        skill1="Conducted testing as well as closely collaborated with intended user base to continuously improve software features."
                         skill2="Created mockups for user base for the purpose of visual aid for form and functionality of software."
-                        skill3="Experienced in building UI software using QtCreator."
+                        skill3="Experienced in building desktop application UI using Qt/QML."
                         skill4="Designed and developed web content that conform to mobile responsiveness."
                     />
 
                     <Skills
-                        category="Algorithms and Data Structures I and II"
+                        category="Algorithms and Data Structures"
                         skill1="Developed understanding of ADTs such as graphs, trees, heaps, and sorting algorithms."
                         skill2="Analyzed algorithm complexity using recurrence relations and discrete math to understand appropriate uses of data structures in software engineering."
                         skill3="Familiarized with algorithms and data structures and their appropriate usages when in design process of software development."
-                        skill4="Acquired theoretical understanding of software architecture and how to effectively build efficient programs to maximise available computational resources." 
+                        skill4="Acquired theoretical understanding of software architecture and how to effectively build efficient programs to work efficiently within available resources." 
                     />
 
                     <Skills 
