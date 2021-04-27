@@ -8,16 +8,13 @@ class AboutMe extends Component {
                 <Grid className="about-grid">
                     {/* <Cell col={1}></Cell> */}
                     <Cell className="about-me" col={12} style={{textAlign: 'center'}}>
-                    <h2 style={{padding: '1em'}}>About Phil</h2>
+                    <h2 style={{padding: '1em'}}>About Me</h2>
                     <hr style={{borderTop: '3px solid #833FB2', width: '100%'}} />
-                    <p>Phil is a native of Calgary, AB, Canada. He has been studying Computer Science for the past 3 years, having worked
-                        in departments such as IT for his College as well as UI Programming and QA testing recently for AbCellera Biologics Inc,
-                        a reknowned biotech firm homegrown in Vancouver, BC where he currently resides finishing the last bit of 
-                        coursework for his degree. He currently is learning and programming web content for personal projects using React and Django
-                        as well as learning circuitry doing projects with Arduino. 
-                        When not working on his digital interests, Phil can be found in the backcountry surrounding his city, 
-                        playing one of the many instruments he enjoys, or exploring new locations globally and reading about new innovations and technology.
-                    </p>
+                    <h5>Hi there, my name is Phil. I'm a native of Calgary, AB, Canada and a recent graduate in Computer Science. I have experience in IT, web development, 
+                        desktop application development, UX/UI, and QA through various internships in the Vancouver, BC area where I currently reside. On my spare time 
+                        I am currently honing my skills in the above as well as learning to work with cybersecurity and microcontrollers when I'm not climbing mountains, 
+                        cycling, playing music or learning more about new innovations and technology.           
+                    </h5>
                     <hr style={{borderTop: '3px solid #833FB2', width: '100%'}} />
                     </Cell>
                     {/* <Cell col={1}></Cell> */}

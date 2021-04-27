@@ -212,10 +212,10 @@ class Resume extends Component {
                     
                     <Education
                         startYear={2017}
-                        endYear={2020}
+                        endYear={2021}
                         schoolName="Langara College"
                         schoolDescription="Vancouver based technical college"
-                        accreditation="ASc Computer Science (completion 2020)"
+                        accreditation="ASc Computer Science"
                     />
 
                 </Cell>
