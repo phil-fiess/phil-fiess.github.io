@@ -51,6 +51,14 @@ class Resume extends Component {
                         progress={50}
                     />
                     <Languages 
+                        skill="WordPress"
+                        progress={75}
+                    />
+                    <Languages
+                        skill="PHP"
+                        progress={65}
+                    />
+                    <Languages 
                         skill="React"
                         progress={40}
                     />
@@ -67,6 +75,10 @@ class Resume extends Component {
                         progress={75}
                     />
                     <Languages 
+                        skill="Apache"
+                        progress={40}
+                    />
+                    <Languages 
                         skill="Git"
                         progress={80}
                     />
@@ -77,6 +89,10 @@ class Resume extends Component {
                     <Languages 
                         skill="PostgreSQL"
                         progress={40}
+                    />
+                    <Languages 
+                        skill="MySQL"
+                        progress={65}
                     />
                     <Languages 
                         skill="MongoDB"
@@ -107,6 +123,25 @@ class Resume extends Component {
                 <Cell className="resume-right-col" col={8}>
 
                     <h2 styie={{paddingTop: '2em', paddingBottom: '10px'}}>Experience</h2>
+
+                    <Experience 
+                    startMonth="April"
+                    startYear={2021}
+                    endMonth="Present"
+                    endYear={}
+                    position="Freelance Web Developer"
+                    employer="Mercenary Digital, Inc."
+                    location="Vancouver, BC, Canada"
+                    skillStatement1="Oversaw communications with business clients, investigated project scope and 
+                                    developed project proposals prioritizing time management and cost control to deliver 
+                                    quality software within efficient timelines."
+                    skillStatement2="Re-designed and improved complex e-commerce and reporting web applications in PHP, 
+                                    improving legacy code readability and significantly reducing future maintenance hours."
+                    skillStatement3="Developed and deployed device-agnostic web applications and custom wordpress plugins using 
+                                    languages such as PHP, JavaScript, and Python for clients in both North America and Europe. "
+                    skillStatement4="Noted and cataloged security flaws through logging and reporting while investigating website
+                                    bugs, alerting clients to vulnerabilities and made recommendations for improved security."
+                    />
 
                     <Experience 
                     startMonth="August"

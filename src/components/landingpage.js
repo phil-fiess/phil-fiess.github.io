@@ -19,7 +19,7 @@ class Landing extends Component {
                             <h2>Software Developer and IT</h2>
                         <hr/>
 
-                        <p>HTML/CSS | Bootstrap 4 | JavaScript | React | JQuery | Python | Django | C++ | Java | PostgreSQL | QML/Qt | Node.js </p>
+                        <p>HTML/CSS | Bootstrap 4 | JavaScript | React | UX/UI | JQuery | WordPress | PHP | Apache | Python | Django | C++ | Java | MySQL | PostgreSQL | QML/Qt | Node.js </p>
                         
                         <div className="social-links">
                             
